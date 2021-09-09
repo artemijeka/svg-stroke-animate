@@ -30,33 +30,45 @@ body {
     animation: hide 1s ease-out 14s 1 normal forwards;
     &-circle {
       stroke: #000;
-      stroke-width: 3px;
+      stroke-width: 0.15vw;
+
+      stroke-dasharray: 22vw;
+      stroke-dashoffset: 22vw;
+      // stroke-dasharray: 71%;
+      // stroke-dashoffset: 71%;
+
       animation: animate-svg 1s linear 1s 1 reverse forwards;
-      stroke-dasharray: 71%;
-      stroke-dashoffset: 71%;
     }
     &-path {
       stroke: #000;
-      stroke-width: 3px;
+      stroke-width: 0.15vw;
 
       &.--n1 {
-        stroke-dasharray: 230%;
-        stroke-dashoffset: 230%;
+        stroke-dasharray: 207vw;
+        stroke-dashoffset: 207vw;
+        // stroke-dasharray: 230%;
+        // stroke-dashoffset: 230%;
         animation: animate-svg 2s linear 2s 1 reverse forwards;
       }
       &.--n2 {
-        stroke-dasharray: 21%;
-        stroke-dashoffset: 21%;
+        stroke-dasharray: 19vw;
+        stroke-dashoffset: 19vw;
+        // stroke-dasharray: 21%;
+        // stroke-dashoffset: 21%;
         animation: animate-svg 1s linear 4s 1 reverse forwards;
       }
       &.--n3 {
-        stroke-dasharray: 250%;
-        stroke-dashoffset: 250%;
+        stroke-dasharray: 230vw;
+        stroke-dashoffset: 230vw;
+        // stroke-dasharray: 250%;
+        // stroke-dashoffset: 250%;
         animation: animate-svg 4s linear 5s 1 reverse forwards;
       }
       &.--n4 {
-        stroke-dasharray: 250%;
-        stroke-dashoffset: 250%;
+        stroke-dasharray: 231vw;
+        stroke-dashoffset: 231vw;
+        // stroke-dasharray: 250%;
+        // stroke-dashoffset: 250%;
         animation: animate-svg 4s linear 9s 1 reverse forwards;
       }
     }
